@@ -29,6 +29,8 @@ a, a:visited, a:active {
   color: blue;
 }
 
+/* infos - about */ 
+
 p.colophon {
   color: #777;
 }
@@ -36,6 +38,9 @@ p.colophon {
 p.colophon a, p.colophon a:visited, p.colophon a:active {
   color: #B5C8FF;
 }
+
+
+/* Tailles de titres génériques */ 
 
 h1 {
   font-size: 64px;
