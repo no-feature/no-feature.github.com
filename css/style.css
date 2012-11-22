@@ -1,32 +1,110 @@
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  margin-bottom: 24px;
+html { 
+    font-size: 100%; 
+} 
+
+@font-face {
+    font-family: La_roquette;
+    src: url("http://no-feature.github.com/french-turtles/La_roquette.otf");
 }
 
-.container {
-  width: 720px;
-  margin: 48px auto;
+@font-face {
+    font-family: franklin;
+    src: url("http://no-feature.github.com/french-turtles/franklin.otf");
+}
+
+@font-face {
+    font-family: twosteps;
+    src: url("http://no-feature.github.com/french-turtles/2steps.otf");
+}
+
+@font-face {
+    font-family: "Dauphine";
+    src: url(http://no-feature.github.com/dauphine/Dauphine%20Regular.otf);
+}
+
+
+/* styles géneriques communs */ 
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit !important;
 }
 
 body {
-  line-height: 24px;
-  font-size: 18px;
+    line-height: 24px;
+    font-size: 18px;
 }
 
 p {
-  margin-bottom: 24px;
-  font-family: Gill Sans, SansGuiltMB;
-  width: 528px;
+    margin-bottom: 24px;
+    font-family: Gill Sans, SansGuiltMB;
+    width: 528px;
 }
 
-p#source-files {
-  position: fixed;
-  top: 24px;
-  right: 128px;
-  width: inherit;
-}
 a, a:visited, a:active {
-  color: blue;
+    color: blue;
+}
+
+/* main home */ 
+
+h1.no-feature {
+    font-size:12px;
+    line-height: 12px;
+}
+    
+
+.container {
+  width: 720px;
+  margin: 48px 120px;
+}
+
+.fonts list {
+    font-size: 12px;
+    width: 528px;
+}
+
+.display {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.display a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.La_roquette{
+    font-family: La_roquette;
+    text-transform: uppercase;
+}
+
+.franklin{
+    font-family: franklin;
+    text-transform: uppercase;
+}
+
+.twosteps{
+    font-family: twosteps;
+    text-transform: uppercase;
+}
+
+.dauphine{
+    font-family: Dauphine;
 }
 
 /* infos - about */ 
@@ -39,22 +117,13 @@ p.colophon a, p.colophon a:visited, p.colophon a:active {
   color: #B5C8FF;
 }
 
-
-/* Tailles de titres génériques */ 
-
-h1 {
-  font-size: 64px;
-  line-height: 72px;
-}
-
-h2 {
-  font-size: 48px;
-  line-height: 48px;
-}
-
-h2 a {
-    text-decoration: none;
-    color: inherit !important;
+/* font page */ 
+.display text {
+    font-size: 60px;
+    top:20px;
+    width:600px;
+    height:500px; 
+    background-color: yellow;
 }
 
 
