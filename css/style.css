@@ -52,25 +52,5 @@ h2 a {
     color: inherit !important;
 }
 
-div#mixtape h2 {
-    margin-bottom: 16px;
-}
 
-div#mixtape p {
-    margin-left: 8px;
-    margin-bottom: 36px;
-    color: #777;
-}
 
-h2#vas-y {
-  margin-top: 80px;
-  margin-bottom: 64px;
-}
-
-span#SansGuiltMB {
-  top: -5px !important;
-}
-
-span#Alphajet-Shadow {
-  top: 2px !important;
-}
