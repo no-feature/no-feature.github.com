@@ -53,7 +53,7 @@ body {
 p {
     margin-bottom: 24px;
     font-family: 'Cousine', monospaced;
-    width: 528px;
+    width: 100%;
 }
 
 a, a:visited, a:active {
