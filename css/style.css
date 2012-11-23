@@ -60,13 +60,7 @@ a, a:visited, a:active {
     color: blue;
 }
 
-/* main home */ 
-
-h1.no-feature {
-    font-size:12px;
-    line-height: 12px;
-}
-    
+/* main home */     
 
 .container {
   width: 720px;
@@ -114,8 +108,13 @@ p.colophon {
     margin-left:120px;
     font-size:15px;
     line-height:22px;
+}
 
-
+h1.no-feature {
+    fcolor:#00FF00;
+    margin-left:120px;
+    font-size:15px;
+    line-height:22px;
 }
 
 p.colophon a, p.colophon a:visited, p.colophon a:active {
