@@ -52,7 +52,7 @@ body {
 
 p {
     margin-bottom: 24px;
-    font-family: Gill Sans, SansGuiltMB;
+    font-family: 'Cousine', monospaced;
     width: 528px;
 }
 
@@ -114,6 +114,7 @@ p.colophon {
     margin-left:120px;
     font-size:18px;
     line-height:24px;
+
 
 }
 
