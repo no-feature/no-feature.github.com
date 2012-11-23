@@ -110,7 +110,11 @@ h1.no-feature {
 /* infos - about */ 
 
 p.colophon {
-  color:#00FF00;
+    color:#00FF00;
+    margin-left:50px;
+    font-size:14px;
+    line-height:22px;
+
 }
 
 p.colophon a, p.colophon a:visited, p.colophon a:active {
