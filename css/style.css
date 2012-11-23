@@ -73,8 +73,8 @@ a, a:visited, a:active {
 }
 
 .display {
-    font-size: 200px;
-    line-height: 300px;
+    font-size: 100px;
+    line-height: 150px;
 }
 
 .display a {
