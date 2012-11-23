@@ -21,8 +21,9 @@ html {
     font-family: "Dauphine";
     src: url(http://no-feature.github.com/dauphine/Dauphine%20Regular.otf);
 }
-
-@import url(http://fonts.googleapis.com/css?family=Cousine);
+@font-face {
+    font-family: "Cousine";
+src: url(http://fonts.googleapis.com/css?family=Cousine);
 
 /* styles géneriques communs */ 
 
