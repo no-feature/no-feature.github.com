@@ -62,6 +62,7 @@ a, a:visited, a:active {
 .container {
   width: 90%;
   margin-left: 120px;
+  margin-bottom:50px;
 }
 
 .fonts list {
