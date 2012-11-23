@@ -70,9 +70,7 @@ a, a:visited, a:active {
 }
 
 .display {
-    font-size: 100px;
-    line-height: 130px;
-    width:100%;
+   
 }
 
 .display a {
@@ -83,6 +81,8 @@ a, a:visited, a:active {
 .La_roquette{
     font-family: La_roquette;
     text-transform: uppercase;
+ font-size: 100px;
+    line-height: 130px;
 }
 
 .franklin{
