@@ -118,6 +118,13 @@ p.colophon {
     font-family: 'Cousine', monospaced;
 }
 
+.legende {
+    color:#0000FF;
+    font-size:20px;
+    line-height:26px;
+    font-family: 'Cousine', monospaced;
+}
+
 p.colophon a, p.colophon a:visited, p.colophon a:active {
   color: #B5C8FF;
 }
