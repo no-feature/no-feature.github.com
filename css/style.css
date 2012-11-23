@@ -122,6 +122,7 @@ p.colophon {
     font-size:12px;
     line-height:17px;
     font-family: 'Cousine', monospaced;
+    margin-bottom:100px;
 }
 
 p.colophon a, p.colophon a:visited, p.colophon a:active {
