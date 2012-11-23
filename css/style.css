@@ -54,7 +54,6 @@ p {
     margin-bottom: 24px;
     font-family: Gill Sans, SansGuiltMB;
     width: 528px;
-color:#00FF00;
 }
 
 a, a:visited, a:active {
@@ -111,7 +110,7 @@ h1.no-feature {
 /* infos - about */ 
 
 p.colophon {
-  color: #777;
+  color:#00FF00;
 }
 
 p.colophon a, p.colophon a:visited, p.colophon a:active {
