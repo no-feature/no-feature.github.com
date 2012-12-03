@@ -5,8 +5,44 @@
 <link rel="stylesheet" href="css/style.css">
 <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
 
+<script src="js/handlebars-1.0.rc.1.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script>
+
+<script id="entry-template" type="text/x-handlebars-template">
+  <p class="download"><a href="https://github.com/no-feature/{{ slug }}/archive/master.zip">Télécharger  le ZIP</a> • <a href="https://github.com/no-feature/{{ slug }}">Explorer les fichiers source</a><br/></p>
+  
+  <p class="commit">Dernière mise à jour: <a href="{{ commit.url }}">{{ commit.message }}</a> par {{ commit.author.name }}, {{ formatDate commit.author.date }}</p>
+</script>
+
+<script>
+Handlebars.registerHelper('formatDate', function(dateString) {
+    var date = new Date(dateString);
+    return date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+});
+
+$(function() {
+    var source = $("#entry-template").html();
+    var template = Handlebars.compile(source);
+
+    $(".git-widget").each(function() {
+        var slug = $(this).attr('id');
+        $.getJSON('https://api.github.com/repos/no-feature/' + slug + '/commits?callback=?', function(data) {
+            var context = data.data[0];
+            context.slug = slug;
+            $(".git-widget#" + slug).html(template(context));
+        });
+    });
+});
+</script>
+
+
+
 <div class="container">
 <h1 class="no-feature">NO FEATURE</h1>
+
+<h1 class="no-feature">French Turtles</h1>
+
+<span id="french-turtles" class="git-widget"></span>
 
 <div class="legende">Roquette — 11.23.2012</div>
 <div class="La_roquette display"><a href="french-turtles/la-roquette.html">Fraiche salade</a></div>
@@ -17,9 +53,11 @@
 <div class="legende">Twostep — 11.23.2012</div>
 <div class="twosteps display"><a href="french-turtles/2steps.html">Double effet kisskool &#x1F422; </a></div>
 
-<div class="legende">Dauphine — September 2012</div>
+<h1 class="no-feature">Dauphine</h1>
+<div class="legende">September 2012</div>
 <div class="dauphine display"><a href="dauphine/">Le Vercors, Grenoble, Valence, le Dauphiné, la Drôme, l’Isère.</a></div>
 
+<span id="dauphine" class="git-widget"></span>
 
 </div>
 

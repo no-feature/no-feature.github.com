@@ -128,6 +128,17 @@ p.colophon {
     text-transform: uppercase;
 }
 
+.download {
+    width: 540px;
+}
+
+.commit {
+    color:#0000FF;
+    font-size:12px;
+    line-height:17px;
+    font-family: 'Cousine', monospaced;
+    text-transform: uppercase;
+}
 p.colophon a, p.colophon a:visited, p.colophon a:active {
   color: #B5C8FF;
 }
