@@ -19,8 +19,14 @@ html {
 
 @font-face {
     font-family: "Dauphine";
-    src: url(http://no-feature.github.com/dauphine/Dauphine%20Regular.otf);
+    src: url("http://no-feature.github.com/dauphine/Dauphine%20Regular.otf");
 }
+
+@font-face {
+    font-family: Cousine;
+    src: url("Cousine-Regular.ttf");
+}
+
 
 
 /* styles géneriques communs */ 
