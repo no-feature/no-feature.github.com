@@ -4,22 +4,22 @@ html {
 
 @font-face {
     font-family: La_roquette;
-    src: url("http://no-feature.github.com/french-turtles/La_roquette.otf");
+    src: url("/french-turtles/La_roquette.otf");
 }
 
 @font-face {
     font-family: franklin;
-    src: url("http://no-feature.github.com/french-turtles/franklin.otf");
+    src: url("/french-turtles/franklin.otf");
 }
 
 @font-face {
     font-family: twosteps;
-    src: url("http://no-feature.github.com/french-turtles/2steps.otf");
+    src: url("/french-turtles/2steps.otf");
 }
 
 @font-face {
     font-family: "Dauphine";
-    src: url("http://no-feature.github.com/dauphine/Dauphine%20Regular.otf");
+    src: url("/Dauphine%20Regular.otf");
 }
 
 @font-face {
